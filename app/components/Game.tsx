@@ -3112,7 +3112,7 @@ function drawZebra(ctx: CanvasRenderingContext2D, x: number, y: number, frame: n
   // Head
   ctx.fillStyle = "#F5F5F5";
   ctx.beginPath();
-  ctx.ellipse(x + 18, y - 24 + bob, 6, 5, 0.3, 0, 0, Math.PI * 2);
+  ctx.ellipse(x + 18, y - 24 + bob, 6, 5, 0.3, 0, Math.PI * 2);
   ctx.fill();
   // Muzzle
   ctx.fillStyle = "#DDD";
